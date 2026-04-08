@@ -1,0 +1,165 @@
+/* Базові налаштування */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Шапка */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.menu-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-item-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero секція */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url('heroback.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+}
+
+.hero-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 720px;
+}
+
+.hero-title {
+    font-size: 64px;
+    margin: 0;
+}
+
+.hero-text {
+    font-size: 24px;
+}
+
+/* Картки переваг */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.card {
+    display: flex;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    width: 80%;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #0073e6;
+}
+
+.card-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Напрямки (Сітка) */
+.destinations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destination {
+    flex-basis: 30%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.destination:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.destination-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Форма */
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: #e55a50;
+}
+
+/* Футер */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
